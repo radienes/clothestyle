@@ -13,6 +13,8 @@
 		69006CE71E558D9F00C40427 /* clothestyle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69006CE51E558D9F00C40427 /* clothestyle.xcdatamodeld */; };
 		69006CE91E558D9F00C40427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69006CE81E558D9F00C40427 /* Assets.xcassets */; };
 		69006CEC1E558D9F00C40427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69006CEA1E558D9F00C40427 /* LaunchScreen.storyboard */; };
+		69006CF41E55950700C40427 /* JapaneseCloset1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69006CF31E55950700C40427 /* JapaneseCloset1.jpg */; };
+		69006CF61E55963300C40427 /* ClothesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69006CF51E55963300C40427 /* ClothesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		69006CE81E558D9F00C40427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69006CEB1E558D9F00C40427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69006CED1E558D9F00C40427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69006CF31E55950700C40427 /* JapaneseCloset1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JapaneseCloset1.jpg; sourceTree = "<group>"; };
+		69006CF51E55963300C40427 /* ClothesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClothesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		69006CDD1E558D9F00C40427 /* clothestyle */ = {
 			isa = PBXGroup;
 			children = (
+				69006CF31E55950700C40427 /* JapaneseCloset1.jpg */,
 				69006CDE1E558D9F00C40427 /* AppDelegate.swift */,
 				69006CE01E558D9F00C40427 /* ViewController.swift */,
+				69006CF51E55963300C40427 /* ClothesViewController.swift */,
 				69006CE21E558D9F00C40427 /* Main.storyboard */,
 				69006CE81E558D9F00C40427 /* Assets.xcassets */,
 				69006CEA1E558D9F00C40427 /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69006CEC1E558D9F00C40427 /* LaunchScreen.storyboard in Resources */,
+				69006CF41E55950700C40427 /* JapaneseCloset1.jpg in Resources */,
 				69006CE91E558D9F00C40427 /* Assets.xcassets in Resources */,
 				69006CE41E558D9F00C40427 /* Main.storyboard in Resources */,
 			);
@@ -142,6 +149,7 @@
 				69006CE11E558D9F00C40427 /* ViewController.swift in Sources */,
 				69006CDF1E558D9F00C40427 /* AppDelegate.swift in Sources */,
 				69006CE71E558D9F00C40427 /* clothestyle.xcdatamodeld in Sources */,
+				69006CF61E55963300C40427 /* ClothesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
