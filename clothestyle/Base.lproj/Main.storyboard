@@ -14,7 +14,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="clothestyle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="clothestyle" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -22,7 +22,19 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DjS-8e-8vZ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DjS-8e-8vZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Fr4-ZQ-wxJ"/>
+                            <constraint firstAttribute="trailing" secondItem="DjS-8e-8vZ" secondAttribute="trailing" id="JcC-gS-dg7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DjS-8e-8vZ" secondAttribute="bottom" id="c1t-hl-aii"/>
+                            <constraint firstItem="DjS-8e-8vZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="gzE-Om-Ya7"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="syL-Ef-KPR">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="mUa-ns-cw0">
@@ -31,6 +43,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="DjS-8e-8vZ" id="XfT-xN-yTm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

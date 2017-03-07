@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		69006CDF1E558D9F00C40427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69006CDE1E558D9F00C40427 /* AppDelegate.swift */; };
-		69006CE11E558D9F00C40427 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69006CE01E558D9F00C40427 /* ViewController.swift */; };
 		69006CE41E558D9F00C40427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69006CE21E558D9F00C40427 /* Main.storyboard */; };
 		69006CE71E558D9F00C40427 /* clothestyle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69006CE51E558D9F00C40427 /* clothestyle.xcdatamodeld */; };
 		69006CE91E558D9F00C40427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69006CE81E558D9F00C40427 /* Assets.xcassets */; };
 		69006CEC1E558D9F00C40427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69006CEA1E558D9F00C40427 /* LaunchScreen.storyboard */; };
 		69006CF41E55950700C40427 /* JapaneseCloset1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69006CF31E55950700C40427 /* JapaneseCloset1.jpg */; };
 		69006CF61E55963300C40427 /* ClothesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69006CF51E55963300C40427 /* ClothesViewController.swift */; };
+		696E8FBA1E6EC38F00C3DA56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696E8FB91E6EC38F00C3DA56 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		69006CDB1E558D9F00C40427 /* clothestyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clothestyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69006CDE1E558D9F00C40427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69006CE01E558D9F00C40427 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		69006CE31E558D9F00C40427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69006CE61E558D9F00C40427 /* clothestyle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = clothestyle.xcdatamodel; sourceTree = "<group>"; };
 		69006CE81E558D9F00C40427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		69006CED1E558D9F00C40427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69006CF31E55950700C40427 /* JapaneseCloset1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JapaneseCloset1.jpg; sourceTree = "<group>"; };
 		69006CF51E55963300C40427 /* ClothesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClothesViewController.swift; sourceTree = "<group>"; };
+		696E8FB91E6EC38F00C3DA56 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			children = (
 				69006CF31E55950700C40427 /* JapaneseCloset1.jpg */,
 				69006CDE1E558D9F00C40427 /* AppDelegate.swift */,
-				69006CE01E558D9F00C40427 /* ViewController.swift */,
+				696E8FB91E6EC38F00C3DA56 /* ViewController.swift */,
 				69006CF51E55963300C40427 /* ClothesViewController.swift */,
 				69006CE21E558D9F00C40427 /* Main.storyboard */,
 				69006CE81E558D9F00C40427 /* Assets.xcassets */,
@@ -146,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69006CE11E558D9F00C40427 /* ViewController.swift in Sources */,
+				696E8FBA1E6EC38F00C3DA56 /* ViewController.swift in Sources */,
 				69006CDF1E558D9F00C40427 /* AppDelegate.swift in Sources */,
 				69006CE71E558D9F00C40427 /* clothestyle.xcdatamodeld in Sources */,
 				69006CF61E55963300C40427 /* ClothesViewController.swift in Sources */,
@@ -311,6 +311,7 @@
 				69006CF21E558D9F00C40427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
